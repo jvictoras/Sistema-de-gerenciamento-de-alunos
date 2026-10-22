@@ -17,7 +17,7 @@ public class Aluno {
         return numMatricula;
     }
 
-    public void setNome(int numMatricula){
+    public void setNumMatricula(int numMatricula){
         this.numMatricula = numMatricula;
     }
 

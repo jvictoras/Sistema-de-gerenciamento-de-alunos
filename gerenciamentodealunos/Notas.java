@@ -1,24 +1,28 @@
 package gerenciamentodealunos;
+import java.util.Scanner;
 
 public class Notas {
     
-    private double nota1;
-    private double nota2;
+    private double nota;
 
-    public double getNota1(){
-        return nota1;
+    public double getNota(){
+        return nota;
     }
 
-    public void setNota1(double nota1){
-        this.nota1 = nota1;
+    public void setNota(double nota){
+        this.nota = nota;
     }
 
-    public double getNota2(){
-        return nota2;
+
+    public void registrarNotas(Scanner sc){
+
+        System.out.println("Informe sua nota: ");
+        nota = sc.nextDouble();
+
     }
 
-    public void setNota2(double nota2){
-        this.nota1 = nota2;
+    public void imprimirNotas(){
+        System.out.println("Nota: " + nota);
     }
 
 }
