@@ -10,7 +10,7 @@ public class SistemaMain {
 
         uepb.registrandoTurmas(sc);
 
-        uepb.imprimirTurmas();
+        uepb.imprimirDados();
 
     }
 }
